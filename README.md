@@ -1,4 +1,4 @@
-# pythonProject
+# pythonTrainingKnock 
 Pythonの学習用コード
 
 ## 開発環境
