@@ -2,7 +2,7 @@ from knock100.knock001_010 import knock001_010 as k001010
 
 
 def main():
-    k001010.knock001()
+    k001010.knock008()
 
 
 # main

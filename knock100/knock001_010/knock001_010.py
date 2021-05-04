@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # ファイルの配置ディレクトリ
-path_dir = 'D:\\Users\\k\\PycharmProjects\\pythonProject\\knock100\\knock001_010\\'
+path_dir = 'D:\\Users\\k\\PycharmProjects\\pythonTrainingKnock\\knock100\\knock001_010\\'
 
 
 def read_csv(file):
@@ -76,8 +76,8 @@ def knock008():
     _join_data["payment_date"] = pd.to_datetime(_join_data["payment_date"])
     _join_data["payment_month"] = _join_data["payment_date"].dt.strftime("%Y%m")
     # print(_join_data[["payment_date", "payment_month"]].head())
-    # print(_join_data.groupby("payment_month").sum()["price"])
-    return _join_data
+    print(_join_data.groupby("payment_month").sum()["price"])
+    # return _join_data
 
 
 def knock009():
